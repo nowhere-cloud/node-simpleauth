@@ -1,6 +1,7 @@
 'use strict';
 
 const Crypto  = require('crypto');
+const Sanitizer = require('sanitizer');
 
 /**
  * Calculate SHA256 of a specified String
